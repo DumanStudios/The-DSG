@@ -32,10 +32,10 @@ bool auto_option = false;
 bool auto_option_enabled = true;
 char choice = '?';
 char ch;
+
 const auto sql_ip = "tcp://sql_ip:port";
 const auto sql_username = "sql_username";
 const auto sql_password = "sql_password";
-
 
 string monster_name_array[50] = {
 "Ivana Lessley",
