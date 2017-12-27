@@ -95,9 +95,10 @@ string get_password(bool show_asterisk);
 
 int main()
 {
-	//libcurl internet availablity check below
-	// do it here
-	//libcurl internet availablity check above
+	if(!InternetCheckConnection("https://dumanstudios.com", FLAG_ICC_FORCE_CONNECTION, 0))
+	{
+		cout << "Connection to DumanSTUDIOS.com is failed.\nPlease check your internet connection.\n\n";
+	}
 	
 	// MYSQL STUFF BELOW
 	sql::Driver *driver;
