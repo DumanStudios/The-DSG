@@ -1,5 +1,6 @@
 #ifndef SYSTEM_H
 #define SYSTEM_H
+
 #include "monster.h"
 #include "player.h"
 #include <string>
@@ -11,4 +12,5 @@ class systemclass
 public:
 	static void battle_information(player&, monster&);
 };
+
 #endif
