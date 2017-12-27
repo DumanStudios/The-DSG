@@ -1,0 +1,18 @@
+﻿  main.cpp
+c:\program files (x86)\mysql\mysql connector c++ 1.1.9\include\cppconn\sqlstring.h(39): warning C4251: 'sql::SQLString::realStr': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>', dll arabiriminin class 'sql::SQLString' istemcileri tarafından kullanılmasını gerektiriyor
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include\xstring(4079): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' bildirimine bakın
+c:\program files (x86)\mysql\mysql connector c++ 1.1.9\include\cppconn\exception.h(61): warning C4251: 'sql::SQLException::sql_state': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>', dll arabiriminin class 'sql::SQLException' istemcileri tarafından kullanılmasını gerektiriyor
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include\xstring(4079): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' bildirimine bakın
+c:\program files (x86)\mysql\mysql connector c++ 1.1.9\include\cppconn\exception.h(145): warning C4251: 'sql::SQLUnsupportedOptionException::option': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>', dll arabiriminin struct 'sql::SQLUnsupportedOptionException' istemcileri tarafından kullanılmasını gerektiriyor
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\include\xstring(4079): note: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' bildirimine bakın
+C:\Program Files (x86)\MySQL\MySQL Connector C++ 1.1.9\include\mysql_connection.h(175): warning C4251: 'sql::mysql::MySQL_Connection::proxy': class 'boost::shared_ptr<sql::mysql::NativeAPI::NativeConnectionWrapper>', dll arabiriminin class 'sql::mysql::MySQL_Connection' istemcileri tarafından kullanılmasını gerektiriyor
+  C:\Program Files (x86)\MySQL\MySQL Connector C++ 1.1.9\include\mysql_connection.h(175): note: 'boost::shared_ptr<sql::mysql::NativeAPI::NativeConnectionWrapper>' bildirimine bakın
+C:\Program Files (x86)\MySQL\MySQL Connector C++ 1.1.9\include\mysql_connection.h(179): warning C4251: 'sql::mysql::MySQL_Connection::service': class 'boost::scoped_ptr<sql::mysql::MySQL_Statement>', dll arabiriminin class 'sql::mysql::MySQL_Connection' istemcileri tarafından kullanılmasını gerektiriyor
+  C:\Program Files (x86)\MySQL\MySQL Connector C++ 1.1.9\include\mysql_connection.h(179): note: 'boost::scoped_ptr<sql::mysql::MySQL_Statement>' bildirimine bakın
+C:\Program Files (x86)\MySQL\MySQL Connector C++ 1.1.9\include\mysql_connection.h(181): warning C4251: 'sql::mysql::MySQL_Connection::intern': class 'boost::scoped_ptr<sql::mysql::MySQL_ConnectionData>', dll arabiriminin class 'sql::mysql::MySQL_Connection' istemcileri tarafından kullanılmasını gerektiriyor
+  C:\Program Files (x86)\MySQL\MySQL Connector C++ 1.1.9\include\mysql_connection.h(181): note: 'boost::scoped_ptr<sql::mysql::MySQL_ConnectionData>' bildirimine bakın
+LINK : warning LNK4098: defaultlib 'LIBCMT' diğer kitaplıkların kullanımı ile çakışıyor; /NODEFAULTLIB:library kullanın
+  Kod üretiliyor
+  All 244 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Kodun üretilmesi tamamlandı
+  projectx.vcxproj -> C:\Users\Kaan\source\repos\projectx\Release\projectx.exe
