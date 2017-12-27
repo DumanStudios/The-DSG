@@ -20,9 +20,9 @@ class player
 	int monsters_killed_ = 0;
 	int max_hp_;
 	int death_count_;
-	int killing_spree_;
+	// int killing_spree_; not used yet, will be added in the future
 public:
-	player(const int a, const int b, const string nm): dmg_(0), death_count_(0), killing_spree_(0)
+	player(const int a, const int b, const string& nm): dmg_(0), death_count_(0)
 	{
 		hp_ = a;
 		max_hp_ = b;
@@ -51,15 +51,15 @@ public:
 	void update_player_exp(monster&);
 	static void death(monster&);
 	void should_level_up(player&);
-	void set_char_name(string);
-	void set_exp(string);
-	void set_boosts(string);
-	void set_hp(string);
-	void set_autohpitem(string);
-	void set_level(string);
-	void set_specitem(string);
+	void set_char_name(const string&);
+	void set_exp(const string&);
+	void set_boosts(const string&);
+	void set_hp(const string&);
+	void set_autohpitem(const string&);
+	void set_level(const string&);
+	void set_specitem(const string&);
 	void set_monsters_killed(int);
-	void set_max_hp(string);
+	void set_max_hp(const string&);
 	void set_auto_enabled(bool);
 };
 #endif

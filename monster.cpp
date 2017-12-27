@@ -41,7 +41,7 @@ int monster::return_exp() const
 	return exp_;
 }
 
-void monster::seed(player& player, const string name)
+void monster::seed(player& player, const string& name)
 {
 	name_ = name;
 	hp_ = rand() % ((player.return_level() * 100) - (player.return_level()) * 90) + ((player.return_level()) * 90);

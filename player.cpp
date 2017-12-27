@@ -17,22 +17,22 @@ void player::death(monster& monster)
 	// add some kind of save system here // hi, I'm you from future. You were right.
 }
 
-void player::set_exp(const string exp)
+void player::set_exp(const string& exp)
 {
 	exp_ = stoi(exp);
 }
 
-void player::set_hp(const string hp)
+void player::set_hp(const string& hp)
 {
 	hp_ = stoi(hp);
 }
 
-void player::set_boosts(const string boosts)
+void player::set_boosts(const string& boosts)
 {
 	boosts_ = stoi(boosts);
 }
 
-void player::set_autohpitem(const string autohpitem)
+void player::set_autohpitem(const string& autohpitem)
 {
 	auto_hp_item_ = stoi(autohpitem);
 }
@@ -72,17 +72,17 @@ void player::set_death_count(const int deaths)
 	death_count_ = deaths;
 }
 
-void player::set_char_name(const string name)
+void player::set_char_name(const string& name)
 {
 	name_ = name;
 }
 
-void player::set_level(const string level)
+void player::set_level(const string& level)
 {
 	lvl_ = stoi(level);
 }
 
-void player::set_max_hp(const string maxhp)
+void player::set_max_hp(const string& maxhp)
 {
 	max_hp_ = stoi(maxhp);
 }
@@ -135,7 +135,7 @@ void player::should_level_up(player& player)
 	}
 }
 
-void player::set_specitem(const string item)
+void player::set_specitem(const string& item)
 {
 	auto_hp_item_ = stoi(item);
 }

@@ -12,10 +12,9 @@ class monster
 	int hpregen_ = 2; //hpregen
 	int hp_; //hp
 	int dmg_;
-	int lvl_ = 1;
 	int exp_ = 0;
 public:
-	monster(const int health, const int experience, const string nm): max_hp_(0), dmg_(0)
+	monster(const int health, const int experience, const string& nm): max_hp_(0), dmg_(0)
 	{
 		hp_ = health;
 		exp_ = experience;
@@ -31,7 +30,7 @@ public:
 	int return_exp() const;
 	int return_max_hp() const;
 	string return_name() const;
-	void seed(player&, string);
+	void seed(player&, const string&);
 	void update_battle_hp(player&);
 	void set_max_hp(int);
 };
